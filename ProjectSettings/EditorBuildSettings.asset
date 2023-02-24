@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestScene_GrabCanFood.unity
+    guid: 333cf028b74a4154f9b6ce94005e63d8
+  m_configObjects:
+    Unity.XR.PXR.Settings: {fileID: 11400000, guid: e34f45d08f164f743aa1abfbad719e1a,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 131d9941be7d967439cc8ef5cfbe6420,
+      type: 2}
