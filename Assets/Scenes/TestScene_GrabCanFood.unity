@@ -391,7 +391,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.05
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &158525270
 MonoBehaviour:
@@ -987,7 +987,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.05
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &364102800
 MonoBehaviour:
@@ -1349,7 +1349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 31251547}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 533558554}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1501,10 +1502,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
+  m_Radius: 0.4387894
+  m_Height: 1.6611788
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.00069056236, y: 0.0022326196, z: -0.000000106436865}
 --- !u!23 &533558555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1563,9 +1564,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533558551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.312, y: 0.342, z: 0.454}
-  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -0.312, y: 0.371, z: 0.454}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1180023403}
   m_Father: {fileID: 0}
@@ -1583,6 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c78e9efa3d5096418f001af21700132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foodAmount: 0
 --- !u!1001 &557948197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1795,6 +1797,7 @@ MonoBehaviour:
   foodPrefab: {fileID: 3614452809920291494, guid: d8be7c77f68178449a484ea1740c2174,
     type: 3}
   handLayer: 0
+  can: {fileID: 533558558}
 --- !u!54 &1180023406
 Rigidbody:
   m_ObjectHideFlags: 0
